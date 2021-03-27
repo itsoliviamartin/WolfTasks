@@ -57,6 +57,16 @@ def main():
         print('Task lists:')
         for item in items:
             print(u'{0} ({1})'.format(item['title'], item['id']))
+            tasks = service.tasks().list(tasklist=item['id']).execute()
+            if not tasks:
+                print("No tasks found")
+            else:
+                items_two = tasks.get('items', [])
+                for tsk in items_two:
+                    try:
+                        print(" - " + tsk['title'] + "\n  * " + tsk['notes'])
+                    except:
+                        print(" - " + tsk['title'])
 
 if __name__ == '__main__':
     main()
