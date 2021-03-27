@@ -128,11 +128,33 @@ limitations under the License.
             for (var i = 0; i < taskLists.length; i++) {
               var taskList = taskLists[i];
               appendPre(taskList.title + ' (' + taskList.id + ')');
-              
+              gapi.client.tasks.tasks.list({'tasklist' : taskList.id}).then(function(response2){
+                var tasks = response2.result.items;
+                for(var j = 0; j < tasks.length; j++){
+                  appendPre(' -' + tasks[j].title);
+                } 
+              });
+              getTasksByListId(gapi, taskList.id);
             }
           } else {
             appendPre('No task lists found.');
           }
+        });
+      }
+
+      function getTasksByListId(googleapi, tasklistId) {
+        googleapi.client.tasks.tasks.list({
+          'taskslist' : tasklistId
+        }).then(function(response){
+          var tasks = response.result.items;
+          if(tasks && tasks.length > 0){
+          for(var i = 1; i < tasks.length; i++){
+            var tsk = tasks[i];
+            appendPre(tsk.title);
+          }
+        } else {
+          appendPre('Error');
+        }
         });
       }
     </script>
