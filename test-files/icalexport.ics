@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Moodle Pty Ltd//NONSGML Moodle Version 2019111806.04//EN
+VERSION:2.0
+BEGIN:VEVENT
+UID:373647@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:Unconscious Bias Weekly Assignment is due
+DESCRIPTION:This week you are to choose and take two tests from Project Imp
+	licit [1].  Project Implicit is series of tests out of Harvard University t
+	hat attempt to recognize and establish the strength of our unconsconscius b
+	iases by testing our reaction speed in a series of associations.  Note that
+	 results are not a judgement of the individual or definitive\; they are use
+	ful for educational purposes.\n\nAfter each test is completed\, take a scre
+	enshot (control+print screen).  To receive credit\, you will need to submit
+	 both screenshots.  On the screenshot\, the test taken must be present and 
+	the screenshot must show evidence of completion.  You may block out your sp
+	ecific results if you do not wish to share them.  The documents for this we
+	ek show two possible examples of submission files.\n\nIn addition to the sc
+	reenshots\, please complete this short reflection [2] about the experience\
+	; the form is anonymous.\n\n\nLinks:\n------\n[1] https://implicit.harvard.
+	edu/implicit/takeatest.html\n[2] https://docs.google.com/forms/d/e/1FAIpQLS
+	csP5SL2I_Rurlfhf-U4mmprMHlnWOgKT5gQkjDbIpylN2ktw/viewform\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20210325T234424Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210325T035900Z
+DTEND:20210325T035900Z
+CATEGORIES:CSC 295 (004) SPRG 2021
+END:VEVENT
+BEGIN:VEVENT
+UID:375951@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:HW8 is due
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20210320T151747Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210329T210000Z
+DTEND:20210329T210000Z
+CATEGORIES:CSC 236 (002) SPRG 2021
+END:VEVENT
+BEGIN:VEVENT
+UID:379653@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:Microaggressions Weekly Assignment is due
+DESCRIPTION:Submit a word document that has the following.\n\nThis form [1]
+	 consists of 15 phrases taken from diversity workshops focused on educating
+	 about microaggressions. \n\nFor your assignment this week\, you will choos
+	e 8 of the 15 phrases and write a two to three sentence description of why 
+	is constitutes a microaggression.\n\n\n\nLinks:\n------\n[1] https://docs.g
+	oogle.com/document/d/1Xc0ZSwURIm-HMMqAlTa0xz55T4Toop5wjK_SEkfyFoI/edit?usp=
+	sharing\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20210326T001435Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210401T035900Z
+DTEND:20210401T035900Z
+CATEGORIES:CSC 295 (004) SPRG 2021
+END:VEVENT
+BEGIN:VEVENT
+UID:378362@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:LINKHLL is due
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20210323T211606Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210402T210000Z
+DTEND:20210402T210000Z
+CATEGORIES:CSC 236 (002) SPRG 2021
+END:VEVENT
+BEGIN:VEVENT
+UID:292045@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:Homework 4 is due
+DESCRIPTION:Questions can be found on https://wordpress-courses2021.wolfwar
+	e.ncsu.edu/csc-246-002-sprg-2021/homework-4/ [1]\n\n\nLinks:\n------\n[1] h
+	ttps://wordpress-courses2021.wolfware.ncsu.edu/csc-246-002-sprg-2021/homewo
+	rk-4/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20210310T055754Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210406T035900Z
+DTEND:20210406T035900Z
+CATEGORIES:CSC 246 (002) SPRG 2021
+END:VEVENT
+BEGIN:VEVENT
+UID:377889@moodle-courses2021.wolfware.ncsu.edu
+SUMMARY:RLC is due
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20210323T123307Z
+DTSTAMP:20210327T211125Z
+DTSTART:20210412T210000Z
+DTEND:20210412T210000Z
+CATEGORIES:CSC 236 (002) SPRG 2021
+END:VEVENT
+END:VCALENDAR
