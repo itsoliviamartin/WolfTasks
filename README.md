@@ -1,4 +1,5 @@
 # WolfTasks
+<hr>
 > A website that converts a class calendar of assignments (iCal) to Google Tasks.
 > 
 <hr>
