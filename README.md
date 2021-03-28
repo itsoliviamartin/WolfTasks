@@ -25,7 +25,7 @@ To use WolfTasks you will need python3 and a few python libraries (Install with 
 * google-api-python-client
 * google-auth-httplib2 
 * google-auth-oauthlib
-* tkinter (for windows you will need to install manually. Download here: <https://www.activestate.com/products/python/downloads>
+* tkinter (for windows you will need to install manually. Download here: <https://www.activestate.com/products/python/downloads>)
 
 ### How to use
 There are two different ways to use WolfTasks, the command line user interface and the graphical user interface.
