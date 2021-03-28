@@ -23,6 +23,9 @@ def createCalendarFile(file):
     f = open(file,"r")
     return Calendar(f.read())
 
+def createCalendarFileObject(f):
+    return Calendar(f.read())
+
 def getEvents(calendar):
     return calendar.events
 
@@ -45,7 +48,6 @@ def getTasks(events, style):
             continue
         notes = "DUE @ " + event.end.shift(hours=-4).format("h:mm a") + "\n" + event.description
         t = Task(name, notes, event.end.format("YYYY-MM-DDTHH:mm:ss.SSS") + "Z")
-        print(t.toString())
         tasklist.append(t)
     return tasklist
 
