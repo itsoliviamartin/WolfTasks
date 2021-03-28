@@ -1,4 +1,4 @@
-from CalendarAPI import *
+from CalendarAPI import getTasksFromCalendar
 
 def main():
     print("                      .")
@@ -21,7 +21,6 @@ def main():
     while 1:
         action = input().lower()
         if action == 'view':
-            getTasks(getEvents(createCalendarURL("https://moodle-courses2021.wolfware.ncsu.edu/calendar/export_execute.php?userid=138996&authtoken=25051e72c7311e1a04bdf806ec0af99ffea47dcf&preset_what=all&preset_time=custom")), 1)
             print("VIEW")
         elif action == 'add':
             print("ADD")
