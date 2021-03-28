@@ -5,7 +5,6 @@
 # Table of Contents
 <hr>
 
-# <a name="team-members"><a/>Team Members
-*"Olivia Martin" <ogmartin@ncsu.edu>
+# Team Members
 
 Gmail: wolftasks.ncsu@gmail.com
