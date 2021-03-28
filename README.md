@@ -38,3 +38,9 @@ To launch the GUI:
 1) Change directory to the src directory in WolfTasks
 2) run **python WolfTasksGUI.py**
 3) The GUI will load and you can input the required fields via the radio buttons
+
+## Future
+
+There are a few things we hope to accomplish in the future. 
+* Pack the python tool into one executable
+* Created a website based tool that would allow users to upload the file or paste a link
