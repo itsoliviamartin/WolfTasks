@@ -1,5 +1,8 @@
-# WolfTasks
+# WolfTasks by 2B || !2B
 > A tool that converts a class calendar of assignments (iCal) to Google Tasks.
+> 
+> This tool was originally developed for the Diamond Hacks hackathon at NCSU
+> 
 > Email: <wolftasks.ncsu@gmail.com>
 <hr>
 
