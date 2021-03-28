@@ -17,7 +17,6 @@ def submit(auth, top, v, v2):
     styleChoice = v2.get()
     if v.get() == 0:
         path = simpledialog.askstring("URL", "Enter URL below", parent = top)
-        print(url)
         bool_url = True
     elif v.get() == 1:
         path = openfile()

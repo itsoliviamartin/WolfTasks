@@ -10,14 +10,10 @@ SCOPES = ['https://www.googleapis.com/auth/tasks']
 def checkAuth():
     creds = None
 
-    print(os.path.exists('../resources/token.json'))
-
     if os.path.exists('../resources/token.json'):
         creds = Credentials.from_authorized_user_file('../resources/token.json', SCOPES)
     
     if not creds or not creds.valid:
-        print(creds)
-        print(creds.valid)
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
@@ -67,12 +63,9 @@ def checkDuplicate(service, task):
     gettasks = service.tasks().list(tasklist='@default', showCompleted = False, showHidden = False, maxResults = 100).execute()
 
     tasks_final = gettasks.get('items', [])
-    
+
     if not found:
         for tsk in tasks_final:
-            print(task.title.find(tsk['title'][9:]))
-            print(task.title.find(tsk['title'][8:]))
-            print("\n\n")
             if task.title.find(tsk['title'][8:]) != -1 or task.title.find(tsk['title'][9:]) != -1:
                 dateTimeChange = True
                 idNum = tsk['id']

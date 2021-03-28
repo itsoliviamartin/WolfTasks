@@ -55,8 +55,11 @@ def main(service):
                     break
                 else:
                     print("Invalid option")
-            tasks = getTasksFromCalendar(bcalurl, url, numtype)
-            addAllTasks(service, tasks)
+            try:
+                tasks = getTasksFromCalendar(bcalurl, url, numtype)
+                addAllTasks(service, tasks)
+            except:
+                print("Error while adding tasks")
         elif action == 'exit' or action == 'quit' or action == 'q' or action == 'e':
             exit(0)
         else:
