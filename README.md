@@ -3,6 +3,8 @@
 > 
 > This tool was originally developed for the Diamond Hacks hackathon at NCSU
 > 
+> Submission video: https://www.youtube.com/watch?v=1P5kbMaFMyk
+>
 > Email: <wolftasks.ncsu@gmail.com>
 <hr>
 
