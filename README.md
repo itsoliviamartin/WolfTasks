@@ -6,6 +6,8 @@
 > Submission video: https://www.youtube.com/watch?v=1P5kbMaFMyk
 >
 > Email: <wolftasks.ncsu@gmail.com>
+> 
+> Devpost: https://devpost.com/software/wolftasks?ref_content=my-projects-tab&ref_feature=my_projects
 <hr>
 
 # Team Members
