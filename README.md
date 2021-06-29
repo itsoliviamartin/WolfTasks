@@ -7,7 +7,7 @@
 >
 > Email: <wolftasks.ncsu@gmail.com>
 > 
-> Devpost: https://devpost.com/software/wolftasks?ref_content=my-projects-tab&ref_feature=my_projects
+> Devpost: https://devpost.com/software/wolftasks
 <hr>
 
 # Team Members
